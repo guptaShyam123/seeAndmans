@@ -1,0 +1,40 @@
+.fery {
+  margin-left: -1vmax;
+}
+.best {
+  margin-left: -1vmax;
+}
+.dinner {
+  margin-left: -1vmax;
+}
+
+.text {
+  width: 23vmax;
+  margin-left: 0.5vmax;
+}
+.icon {
+  @media (min-width: 993px) and (max-width: 1024px) {
+    .kids {
+      margin: 0 0 0 1%;
+    }
+  }
+}
+.ride {
+  @media (min-width: 993px) and (max-width: 1024px) {
+    .ride {
+      margin: 0 10% 0 0%;
+    }
+  }
+}
+.class {
+  @media (min-width: 993px) and (max-width: 1024px) {
+    .class {
+    }
+  }
+}
+.rides {
+  margin-left: -1vmax;
+}
+.kids {
+  margin-left: 0.5vmax;
+}

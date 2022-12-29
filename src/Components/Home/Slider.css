@@ -1,0 +1,22 @@
+.slick-slide {
+   
+    padding:0;
+  }
+
+  .slick-list {
+  
+ height:18vmax ;
+   
+  }
+
+  @media(min-width:335px ) and (max-width:421px){
+    .slick-list {
+     height:50vmax !important;
+     
+  } 
+}
+@media(min-width:335px ) and (max-width:421px){
+  .slick-list {
+  
+} 
+}

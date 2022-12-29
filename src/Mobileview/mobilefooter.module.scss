@@ -1,0 +1,41 @@
+.footer {
+    // background-color:red;
+    margin-top: 30px;
+    padding: 10px;
+    //  margin-left:4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    // width:105vw;
+    // width: 100%;
+    //  background-color: red;
+    color: #000000;
+     text-align: center;
+  }
+  
+  .heading {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .input {
+    height: 32px;
+    border: 1px solid green;
+    padding-left: 10px;
+    width:60vw;
+    padding-bottom: 4px;
+    margin-top:20px;
+    text-align: center;
+//    border-radius: 10px;
+  }
+  
+  .gridwrapper {
+    margin-top: 30px;
+  }
+  
+  .griddiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }

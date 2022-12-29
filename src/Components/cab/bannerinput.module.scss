@@ -1,0 +1,111 @@
+.mainDiv {
+    background: #145843;
+    height: 9vmax;
+    width: 100%;
+    margin : -1% 0 0 0;
+  }
+  
+  .inputContainer {
+  
+  
+   overflow-x: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     padding: 2vmax;
+    
+    .inputTextWrapper{
+      display: flex;
+      flex-direction: column;
+      gap:0.5vmax;
+       span{
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+       }
+    }
+    .datepicker{
+       display: flex;
+       flex-direction: column;
+        gap:0.5vmax;
+       span{
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+       }
+    }
+    input {
+      color: white;
+      // padding: 0 10px;
+      background-color: rgba(13, 162, 116, 0.8);
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      width: 15vmax;
+      height: 3vmax;
+      font-size:18px;
+      padding: 0 1vmax;
+      position: relative;
+      &::placeholder{
+        color:white;
+      }
+    }
+    select{
+      color: white;
+      // padding-left: 10px;
+      background-color: rgba(13, 162, 116, 0.2);
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      width: 15vmax;
+      height: 3vmax;
+      font-size:18px;
+      position: relative;
+    }
+  }
+
+  .green{
+    background-color: rgba(13, 162, 116, 0.8);
+    display: flex;
+    border-radius: 5px;
+    padding: 0 1vmax;
+
+  }
+  
+
+  .inputTextWrapper1{
+    display: flex;
+    flex-direction: column;
+    gap:0.5vmax;
+     span{
+      color: white;
+      font-weight: 600;
+      font-size: 18px;
+     }
+     input {
+       color: white;
+       // padding: 0 10px;
+       background-color: rgba(13, 162, 116, 0.8);
+       border-radius: 5px;
+       border: none;
+       outline: none;
+       width: 20vmax;
+       height: 3vmax;
+       font-size:18px;
+       padding: 0 1vmax;
+       position: relative;
+       &::placeholder{
+         color:white;
+       }
+     }
+  }
+  .datepicker{
+     display: flex;
+     flex-direction: column;
+      gap:0.5vmax;
+     span{
+      color: white;
+      font-weight: 600;
+      font-size: 18px;
+     }
+  }

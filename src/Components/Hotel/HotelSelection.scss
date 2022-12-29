@@ -1,0 +1,352 @@
+@mixin ipad {
+  @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: 992px) and (max-width: 1025px) {
+    @content;
+  }
+}
+@mixin largedevice {
+  @media (min-width: 1678px) and (max-width: 1945px) {
+    @content;
+  }
+}
+.hotel-selection-main-container {
+  margin-top: 3vmax;
+}
+
+.hotel-detail-section {
+  justify-content: space-around;
+  height: 27vmax;
+  display: flex;
+  gap: 2vmax;
+
+  // box-sizing: border-box;
+  @include ipad {
+    width: 70vmax;
+    margin-left: 2%;
+  }
+}
+.big {
+  img {
+    width: 26.5vmax;
+    // height: fit-content;
+    height: 41vh;
+    border-radius: 5px;
+
+    @include ipad {
+      width: 25vmax;
+      height: 25vmax;
+    }
+  }
+}
+.image-grid {
+  display: flex;
+  flex-direction: column;
+  // gap: 2vmax;
+  object-fit: cover;
+  img {
+    width: 12vmax;
+    height: 19vh;
+    border-radius: 5px;
+  }
+}
+.hotel-room-detail {
+  background: rgba(92, 203, 160, 0.5);
+  // background-color: red;
+  border-radius: 10px;
+  padding: 2vh 3vw;
+  height: 12vmax;
+  // width: 39vmax;
+
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.hotel-room-detail-child {
+  display: flex;
+  // background-color: purple;;
+
+  // width: 29vmax;
+  height: 12vmax;
+}
+.price-detail-div {
+  display: flex;
+  flex-direction: column;
+  // width:30vw;
+  height: fit-content;
+  // background-color: pink;
+}
+
+.price-detail-text {
+  font-size: 16px;
+  font-weight: 500;
+  @include ipad {
+    font-size: 12px;
+  }
+  @include desktop {
+    font-size: 12px;
+  }
+  @include largedevice {
+    // color:red;
+    font-size: 20px;
+  }
+}
+.price-detail-text-red {
+  color: #bd0000;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.adult-count {
+  display: flex;
+  // background-color: blue;
+  flex-direction: column;
+
+  //  width:100%;
+  gap: 1vmax;
+
+  align-items: center;
+}
+
+.coupel-image-text {
+  // width: 10vmax;
+  display: flex;
+  gap: 3px;
+  font-size: 15px;
+  font-weight: 400;
+  @include ipad {
+    font-size: 13px;
+  }
+  @include desktop {
+    font-size: 12px;
+  }
+  @include largedevice {
+    // color:red;
+    font-size: 20px;
+  }
+  img {
+    width: 1.5vmax;
+    height: 1.5vmax;
+  }
+}
+
+.view-option {
+  position: absolute;
+  margin-left: 7vmax;
+  margin-top: -2vmax;
+  @include ipad {
+    margin-left: 9vmax;
+  }
+  @include desktop {
+    margin-left: 9vmax;
+  }
+  @include largedevice {
+    // color:red;
+    font-size: 20px;
+  }
+}
+
+.view-option-button {
+  background: linear-gradient(90deg, #2fbf8c 0%, #0da274 54.69%, #4ed19e 100%);
+  font-size: 1.2rem;
+  color: white;
+  width: 19vmax;
+  height: 3vmax;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 2.5vh;
+  @include ipad {
+    width: 15vmax;
+    font-size: 14px;
+  }
+  @include desktop {
+    width: 13vmax;
+    font-size: 10px;
+    height: 2.5vmax;
+  }
+  @include largedevice {
+    // color:red;
+    font-size: 20px;
+  }
+}
+.checkout-detail-div {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 3vmax;
+  justify-content: flex-start;
+}
+
+.breakfast-free {
+  width: 33vmax;
+  height: 3vmax;
+  border: 1px;
+  box-sizing: border-box;
+  // background-color: black;
+  border: 1px solid #2fbf8c;
+  padding: 0 2% 0 2%;
+  color: #145843;
+  font-weight: 500;
+  padding-top: 10px;
+  @include ipad {
+    padding-top: 3px;
+  }
+  @include desktop {
+    font-size: 12px;
+  }
+  @include largedevice {
+    // color:red;
+    font-size: 20px;
+  }
+}
+
+.checkout-checkin {
+  gap: 1vmax;
+  display: flex;
+  border: 1px solid #2fbf8c;
+  width: 33vmax;
+  height: 4vmax;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0 2% 0 2%;
+  font-family: Poppins;
+  box-sizing: border-box;
+  margin: 3% 0 0 0;
+  align-items: center;
+
+  @include ipad {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+.checkin {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vmax;
+  @include desktop {
+    font-size: 10px;
+  }
+  @include largedevice {
+    // color:red;
+    font-size: 20px;
+  }
+}
+
+.about-hotel {
+  color: #145843;
+  margin-top: 4vmax;
+  font-size: 1.4rem;
+  font-family: Poppins;
+  font-weight: 700;
+  text-transform: uppercase;
+  @include largedevice {
+    color: red;
+    font-size: 30px;
+  }
+}
+.about-para {
+  width: 92vmax;
+  margin: 2% 0 0 0;
+  text-align: justify;
+  font-family: Poppins;
+  @include ipad {
+    width: 60vmax;
+    font-size: 10px;
+  }
+  @include desktop {
+    font-size: 12px;
+    font-family: Poppins;
+  }
+  @include largedevice {
+    // color:red;
+    font-size: 20px;
+  }
+}
+
+// middle section styles->
+.middle-section {
+  margin-left: 5%;
+  margin-top: 3vmax;
+}
+
+.middle-sectin-div {
+  display: flex;
+  gap: 4vmax;
+  height: 12vmax;
+}
+.middle-section-left-part {
+  display: flex;
+  flex-direction: column;
+  gap: 2vmax;
+}
+.circle-text-wrapper {
+  display: flex;
+  gap: 1vmax;
+  img {
+    width: 1.2vmax;
+    height: 1.3vmax;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+    @include ipad {
+      font-size: 12px;
+    }
+    @include desktop {
+      font-size: 12px;
+    }
+  }
+}
+.middle-section-right-part {
+  display: flex;
+  gap: 2vmax;
+}
+.middle-right-grid-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vmax;
+}
+.right-detail-div {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #2fbf8c;
+  width: 17vmax;
+  height: 2vmax;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: Poppins;
+  @include ipad {
+    font-size: 12px;
+  }
+  @include desktop {
+    font-size: 12px;
+  }
+}
+.right-arrow {
+  width: 1.5vmax;
+  height: 1.5vmax;
+  margin-top: 0.2vmax;
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.hotelimage {
+  display: flex;
+  width: 40vw;
+  justify-content: space-around;
+  height: fit-content;
+}
+
+.hoteldes {
+  display: flex;
+  // background-color: black;
+  width: 100%;
+  justify-content: space-between;
+  // padding:0 1% 0 1%;
+}

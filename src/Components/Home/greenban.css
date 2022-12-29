@@ -1,0 +1,12 @@
+.active{
+    display: none;
+}
+.disable{
+    display: block;
+}
+.actives{
+    display: none;
+}
+.disables{
+    display: block;
+}

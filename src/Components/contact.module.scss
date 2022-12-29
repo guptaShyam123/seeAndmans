@@ -1,0 +1,95 @@
+.contactbtn {
+    background-color: green;
+    border-radius: 6px;
+    width: 7vmax;
+    height: 2vmax;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .title {
+    color:black;
+    font-weight: 800;
+    font-size:80;
+    font-family: Poppins;
+   text-align: center;
+  }
+  
+  .content {
+    // padding: 10px;
+    padding: 5% 3%  10% 0 ;
+    // background-color:red;;
+    width:100%;
+    // margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 20vmax;
+    height: 3vmax;
+   
+    font-family: Poppins;
+
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    ::placeholder {
+      font-weight: 700;
+      font-size:50px;
+      color:black;
+    }
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 3vmax;
+    margin-top:37px;
+  }
+  
+  .main {
+  background-color: #145843;
+     display: flex;
+     padding: 4% 2%;
+    //  height:210vh;
+    //  width:50vw;
+    //  justify-content: center;
+    //  align-items: center;
+    //  align-items: center;
+    //  width:90vw;
+  }
+  
+  .textarea {
+    width: 20vmax;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    padding-top: 10px;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    button {
+      width: 15vmax;
+      height: 3vmax;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+      :focus {
+        outline: 3px solid black;
+      }
+    }
+  }
+
+  .mainwrapper{
+    background-color: red;
+    //  width:30vmax;
+    display:flex;
+
+  }

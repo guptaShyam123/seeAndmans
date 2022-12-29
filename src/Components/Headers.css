@@ -1,0 +1,9 @@
+a.active.myactive {
+      color:red;
+   }
+   .active{
+      display: none;
+  }
+  .disable{
+      display: block;
+  }

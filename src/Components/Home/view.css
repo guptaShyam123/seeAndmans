@@ -1,0 +1,5 @@
+.open{
+    pointer-events:all;
+    z-index:1;
+    cursor: pointer;
+}

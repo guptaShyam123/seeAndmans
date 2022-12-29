@@ -1,0 +1,39 @@
+.slick-slide {
+    margin: 38px;
+   
+  }
+
+  .slick-list {
+  
+    height:10vmax !important;
+     
+  }
+
+ @media (min-width:1024px) and (max-width:1279px){
+  .slick-list {
+    min-height:min-content!important;
+    width:100%;
+    padding:0.1px !important;
+    margin-bottom:-2vmax;
+    
+     
+  }
+ }
+ @media (min-width:1841px ) and (max-width:1970px){
+  .slick-list {
+  
+    margin-bottom:-1.4vmax;
+     
+   
+  }
+     
+ }
+ @media (min-width:1641px) and (max-width:1740px){
+  .slick-list {
+  
+    margin-bottom:-0.4vmax;
+     
+   
+  }
+ }
+ 
